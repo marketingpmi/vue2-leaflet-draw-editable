@@ -1,5 +1,5 @@
 {
-  "name": "vue2-leaflet-draw-toolbar",
+  "name": "vue2-leaflet-draw-toolbar-edit",
   "version": "0.1.1",
   "private": false,
   "scripts": {
@@ -27,6 +27,7 @@
     "url": "https://github.com/hubertokf/vue2-leaflet-draw-toolbar/issues"
   },
   "dependencies": {
+    "@types/leaflet": "^1.5.11",
     "core-js": "^2.6.5",
     "vue": "^2.6.10",
     "leaflet": "^1.5.1",
