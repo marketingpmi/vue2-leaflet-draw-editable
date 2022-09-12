@@ -60,6 +60,8 @@ export default {
 
       map.on('draw:edited', function (e) {
         var layers = e.layers;
+        // eslint-disable-next-line no-console
+        console.log("LAYERS :: ",JSON.stringify(layers));
         layers.eachLayer(function(layer) {
           this.$emit('onEdit', layer.getLatLngs())
         });
