@@ -24,7 +24,7 @@ export default {
       const map = this.$parent.$parent.$refs.map.mapObject;
 
       let editActions = [
-        L.Toolbar2.EditAction.Popup.Edit,
+        //L.Toolbar2.EditAction.Popup.Edit,
         L.Toolbar2.EditAction.Popup.Delete,
         L.Toolbar2.Action.extendOptions({
           toolbarIcon: { 
